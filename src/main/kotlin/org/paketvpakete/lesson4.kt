@@ -37,4 +37,3 @@ val myInt: Int = 314 //314
 val myLong: Long = 123456789123456789L//123456789123456789L
 val myFloat: Float = 6.626f //6.626f
 val text:String =  "Android Studio"////"Android Studio"
-
