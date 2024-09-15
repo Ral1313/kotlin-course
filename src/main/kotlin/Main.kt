@@ -1,16 +1,23 @@
 package com.ltrfsg
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-fun main() {
-    val name = "Kotlin"
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    println("Hello, " + name + "!")
+val myInt: Int =
+val myFloat: Float = 0.58F
+val myLong: Long
+val myShort: Short
+val myByte: Byte = Byte
+val myDouble: Double =
 
-    for (i in 1..5) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        println("i = $i")
-    }
-}
+val isKotlinFun: Boolean = true
+
+val letter: Char = 'R'
+
+val text:String = "Hello Kotlin" //мб пустым
+
+val numbers: Array<Int> = arrayOf(1, 2, 3)
+val strings: MutableList<String> = mutableListOf("one")
+val doubles: Set<Double> = setOf(23.3)
+val keysToValues: Map<String, String> = mapOf(
+)
+val anytjing: Any = false //любой объект
+fun printMessage(message:String) { }
+fun printMessage(message:String): Nothing
