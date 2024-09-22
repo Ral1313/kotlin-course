@@ -5,8 +5,6 @@ fun main () {
     val intensityOfunknownCoeff = initialIntense, DamplingCoeffknown)
     println(DamplingCoeffunknown)
 }
-
-
 fun main1 () {
     var cargo: Double? = null
     Price(90) Price (null)
